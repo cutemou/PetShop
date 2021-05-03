@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="all.css">
+
+    <title>Shopping</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  bg-light navbar-light sticky-top box-shadow">
+        <a class="navbar-brand text-dark ms-2" href="shopping_index.html">
+            小兔兔黑店
+        </a>
+        <div class="dropdown ms-auto">
+            <button class="btn btn-sm btn-cart me-3" data-bs-toggle="dropdown" data-flip="false">
+                <i class="fa fa-shopping-cart fa-2x text-dark" aria-hidden="true"></i>
+                <span class="badge rounded-pill bg-danger">9</span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" style="min-width: 300px" data-offset="400">
+                <div class="px-4 py-3">
+                    <h6>已選擇商品</h6>
+                    <table class="table table-sm">
+                        <tbody>
+                            <tr>
+                                <td class="align-middle text-center">
+                                    <a href="#removeitem" class="text-muted" data-toggle="modal"
+                                        data-title="刪除 金牌西裝 1 件">
+                                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                                <td class="align-middle">金牌西裝</td>
+                                <td class="align-middle">1 件</td>
+                                <td class="align-middle text-right">$520</td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle text-center">
+                                    <a href="#removeitem" class="text-muted" data-toggle="modal"
+                                        data-title="刪除 金牌女裝 1 件">
+                                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                                <td class="align-middle">金牌女裝</td>
+                                <td class="align-middle">1 件</td>
+                                <td class="align-middle text-right">$480</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="shopping_cart.html" class="btn btn-primary btn-block">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> 結帳去
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-3">
+        <nav aria-label="breadcrumb">
+
+            <ol class="breadcrumb bg-transparent pl-0 mb-3">
+                <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                <li class="breadcrumb-item"><a href="#">金牌專賣店</a></li>
+                <li class="breadcrumb-item active" aria-current="page">金牌西裝</li>
+            </ol>
+        </nav>
+
+
+        <div class="row">
+            <div class="col-md-4">
+
+                <div class="sticky-top" style="top:100px;">
+                    <h1 class="h3">金牌西裝
+                        <small class="h5 text-muted">(加拉哈德版)</small>
+                    </h1>
+                    <div class="d-flex justify-content-end align-items-end">
+                        <div class="h6 mb-0 text-muted">售價$1299</div>
+                        <div class="h5 text-danger mb-0 ms-auto">網路價 NT$
+                            <span class="font-weight-bold">520</span>
+                        </div>
+                    </div>
+                    <hr>尺寸:
+                    <div class="btn-group btn-group-sm"  role="group">
+                        <input class="btn-check" type="radio" name="size" id="size-sm" autocomplete="off">
+                        <label class="btn btn-outline-secondary" for="size-sm">SM</label>
+                        <input class="btn-check" type="radio" name="size" id="size-m" autocomplete="off" disabled>
+                        <label class="btn btn-outline-secondary disabled" for="size-m">M</label>
+                        <input class="btn-check" type="radio" name="size" id="size-l" autocomplete="off">
+                        <label class="btn btn-outline-secondary" for="size-l">L</label>
+                        <input class="btn-check" type="radio" name="size" id="size-xl" autocomplete="off">
+                        <label class="btn btn-outline-secondary" for="size-xl">XL</label>
+                    </div>
+                    <div class="mt-3">
+                        <select name="" id="" class="form-select" >
+                            <option value="1">1 件</option>
+                            <option value="2">2 件</option>
+                            <option value="3">3 件</option>
+                        </select>
+                        <a href="#" class="btn btn-primary mt-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> 加入購物車</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h2>帥氣的西裝無人能敵</h2>
+                <p>This is a longer card with supporting text below as a natural lead-in to additional content. This
+                    content is a little bit longer.</p>
+                <h3 class="text-center">合身剪裁</h3>
+                <img src="https://images.unsplash.com/photo-1521341057461-6eb5f40b07ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                    alt="" class="img-fluid w-100 mb-5">
+                <h3 class="text-center">簡單就好</h3>
+                <img src="https://images.unsplash.com/photo-1516817206129-e2fcbc3169cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                    alt="" class="img-fluid w-100 mb-5">
+                <h3 class="text-center">不佔空間</h3>
+                <img src="https://images.unsplash.com/photo-1523504754200-45cd634649d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                    alt="" class="img-fluid w-100 mb-5">
+                <div class="jumbotron jumbotron-fluid py-2 rounded">
+                    <div class="container">
+                        <h2 class="display-5 text-center">購物說明</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, at! Totam, exercitationem
+                            repellat. Saepe facere amet expedita perferendis voluptatem dicta dignissimos tempora ut
+                            atque, rerum doloribus? Magni, blanditiis. Assumenda,
+                            distinctio!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="py-5 bg-light sticky-bottom">
+        <div class="text-secondary">
+            <ul class="nav justify-content-center align-items-center mb-3">
+                <li class="nav-item">© Copright 2017 六角血拼賣賣</li>
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i> Instagrame</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="#">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="#">About</a>
+                </li>
+            </ul>
+            <p class="text-center">Made with Bootstrap4</p>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+-->
+</body>
+
+</html>

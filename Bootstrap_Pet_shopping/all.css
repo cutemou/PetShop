@@ -1,0 +1,58 @@
+.btn-cart{
+    position: relative;
+}
+
+.btn-cart .badge{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+.dropdown-menu-right{
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: auto;
+    margin-top: .125rem;
+}
+
+.jumbotron-bg {
+    background-image: url(https://www.kowloon-vet-hospital.com//wp-content/uploads/2016/05/row-of-pets.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+}
+
+.bg-lighter{
+    background-color: rgba(0,0,0,.35);
+    color: white;
+}
+
+.box-shadow {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
+    transition: box-shadow .3s;
+}
+
+.box-shadow:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24)
+}
+
+.alert-rounded {
+    border-radius: 20px;
+}
+
+
+.listicon i{
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.card-img img{
+    max-height: 200px;
+}
+
+.card-title{
+    font-size: 32px;
+}
